@@ -1,11 +1,13 @@
 #!/usr/local/bin/python3
 
-class WasRun:
+from TestCase import TestCase
+
+class WasRun(TestCase):
 
     def __init__(self, name):
         self.wasRun = None
-        self.name = name
-    
+        super().__init__(name)
+
     def run(self):
         method = getattr(self, self.name)
         method()
