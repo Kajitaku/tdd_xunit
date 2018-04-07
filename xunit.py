@@ -4,5 +4,5 @@ from WasRun import WasRun
 
 test = WasRun("testMethod")
 print(test.wasRun)
-test.testMethod()
+test.run()
 print(test.wasRun)
