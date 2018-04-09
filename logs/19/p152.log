@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "TestCaseTest.py", line 20, in <module>
+    TestCaseTest("testSetUp").run()
+  File "/home/chronos/user/dev/tdd/TestCase.py", line 10, in run
+    method()
+  File "TestCaseTest.py", line 17, in testSetUp
+    assert(test.wasSetUp)
+AttributeError: 'WasRun' object has no attribute 'wasSetUp'
