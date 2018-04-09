@@ -9,6 +9,6 @@ class TestCaseTest(TestCase):
         test = WasRun("testMethod")
         assert(not test.wasRun)
         test.run()
-        assert(testWasRun)
+        assert(test.WasRun)
 
 TestCaseTest("testRunning").run()
