@@ -9,3 +9,6 @@ class WasRun(TestCase):
 
     def setUp(self):
         self.log = 'setUp '
+
+    def tearDown(self):
+        self.log = self.log + 'tearDown '
