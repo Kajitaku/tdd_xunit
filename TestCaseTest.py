@@ -12,7 +12,6 @@ class TestCaseTest(TestCase):
 
     def testResult(self):
         test = WasRun('testMethod')
-        test.run()
         result = test.run()
         assert('1 run, 0 failed' == result.summary())
 
