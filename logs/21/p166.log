@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "TestCaseTest.py", line 25, in <module>
+    TestCaseTest("testFailedResult").run()
+  File "/home/chronos/user/dev/tdd/TestCase.py", line 15, in run
+    method()
+  File "TestCaseTest.py", line 20, in testFailedResult
+    result = test.run()
+  File "/home/chronos/user/dev/tdd/TestCase.py", line 15, in run
+    method()
+  File "/home/chronos/user/dev/tdd/WasRun.py", line 17, in testBrokenMethod
+    raise Exception
+Exception
+
+This error is ignored by run()'s comment out.
