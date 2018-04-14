@@ -1,0 +1,14 @@
+1 run, 0 failed
+1 run, 0 failed
+Traceback (most recent call last):
+  File "xunit.py", line 7, in <module>
+    print(TestCaseTest("testFailedResult").run().summary())
+  File "/home/chronos/user/dev/tdd/TestCase.py", line 15, in run
+    method()
+  File "/home/chronos/user/dev/tdd/TestCaseTest.py", line 21, in testFailedResult
+    result = test.run()
+  File "/home/chronos/user/dev/tdd/TestCase.py", line 15, in run
+    method()
+  File "/home/chronos/user/dev/tdd/WasRun.py", line 17, in testBrokenMethod
+    raise Exception
+Exception

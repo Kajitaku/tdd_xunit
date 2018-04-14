@@ -1,8 +1,8 @@
 #!/usr/local/bin/python3
 
-from WasRun import WasRun
+from TestCaseTest import TestCaseTest
 
-test = WasRun("testMethod")
-print(test.wasRun)
-test.run()
-print(test.wasRun)
+print(TestCaseTest("testTemplateMethod").run().summary())
+print(TestCaseTest("testResult").run().summary())
+print(TestCaseTest("testFailedResult").run().summary())
+print(TestCaseTest("testFailedResultFormatting").run().summary())
