@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "TestCaseTest.py", line 33, in <module>
+    TestCaseTest("testFailedResultFormatting").run()
+  File "/home/chronos/user/dev/tdd/TestCase.py", line 15, in run
+    method()
+  File "TestCaseTest.py", line 27, in testFailedResultFormatting
+    result.testFailed()
+AttributeError: 'TestResult' object has no attribute 'testFailed'
